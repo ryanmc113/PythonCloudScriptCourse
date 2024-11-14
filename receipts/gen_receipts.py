@@ -13,3 +13,5 @@ for identifier in range(count):
     }
     with open(f'./new/receipt-{identifier}.json', 'w') as f:
         json.dump(content, f)
+
+      
